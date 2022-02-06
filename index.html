@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro De Alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="box">
+        <form action="post">
+            <div class="title-secundario">
+                <h2>Dados do Aluno</h2>
+            </div>
+                <div class="campo-pai-dados-pessoais">
+                    <div class="campo-nome">
+                        <label for="Nome">Nome:</label></br>
+                        <input type="text" name="Nome" id="Nome" maxlength="40" placeholder="Nome" required>
+                    </div>
+
+                    <div class="campo-cpf">
+                        <label for="cpf">CPF:</label></br>
+                        <input type="number" name="cpf" id="cpf" maxlength="11" placeholder="CPF" required>
+                    </div>
+
+                    <div class="campo-rg">
+                        <label for="rg">RG:</label></br>
+                        <input type="number" name="rg" id="rg" maxlength="11" placeholder="RG" required>
+                    </div>
+                </div>
+                <div class="campo-pai-dados-pessoais-2">
+                    <div class="campo-data-nasc">
+                        <label for="data-nasc">Dt Nasc:</label></br>
+                        <input type="date" name="data-nasc" id="data-nasc">
+                    </div>
+                    <div class="campo-sexo">
+                        <label for="sexo">Sexo:</label></br>
+                        <select name="sexo" id="sexo">
+                            <option value="Masculino">Masculino</option>
+                            <option value="Femenino">Femenino</option>
+                            <option value="Indefinido">Indefinido</option>
+                        </select>
+                    </div>
+                    <div class="campo-celular">
+                        <label for="campo-celular">Celular:</label></br>
+                        <input type="number" name="campo-celular" id="campo-celular" maxlength="9"
+                            placeholder="Número" required>
+                    </div>
+                </div>
+                <div class="campo-pai-dados-pessoais-3">
+                    <div class="campo-curso">
+                        <label for="curso">Curso:</label></br>
+                        <select name="curso" id="curso">
+                            <option value="">Ciências Contábeis</option>
+                            <option value="">Marketing</option>
+                            <option value="">Enfermagem</option>
+                            <option value="">Engenharia Ambiental</option>
+                            <option value="">Gestão de Recursos Humanos</option>
+                            <option value="">Biotecnologia</option>
+                            <option value="">Engenharia de Petróleo e Gás</option>
+                            <option value="">Medicina</option>
+                            <option value="">Arquiteto</option>
+                            <option value="">Administração</option>
+                    </select>
+                    </div>
+                    <div class="campo-e-mail">
+                        <label for="campo-e-mail">E-mail:</label></br>
+                        <input type="email" name="campo-e-mail" id="campo-e-mail" placeholder="E-mail" required>
+                    </div>
+                </div>
+                <div class="title-secundario">
+                    <h2>Dados dos Responsáveis</h2>
+                </div>
+                <div class="campo-pai-dados-pessoais">
+                    <div class="campo-nome">
+                        <label for="Nome">Nome:</label></br>
+                        <input type="text" name="Nome" id="Nome" maxlength="40" placeholder="Nome" required>
+                    </div>
+
+                    <div class="campo-cpf">
+                        <label for="cpf">CPF:</label></br>
+                        <input type="number" name="cpf" id="cpf" maxlength="11" placeholder="CPF" required>
+                    </div>
+
+                    <div class="campo-rg">
+                        <label for="rg">RG:</label></br>
+                        <input type="number" name="rg" id="rg" maxlength="11" placeholder="RG" required>
+                    </div>
+                </div>
+                <div class="campo-pai-dados-pessoais-3">
+                    <div class="campo-email">
+                        <label for="campo-email">E-mail:</label></br>
+                        <input type="email" name="campo-email" id="campo-email" required placeholder="E-mail">
+                    </div>
+
+                    <div class="campo-data_nasc">
+                        <label for="data_nasc">Dt Nasc:</label></br>
+                        <input type="date" name="data_nasc" id="data_nasc">
+                    </div>
+
+                    <div class="campo_celular">
+                        <label for="campo_celular">Celular:</label></br>
+                        <input type="number" name="campo_celular" id="campo_celular" maxlength="9"
+                            placeholder="Número" required>
+                    </div>
+                </div>
+            <div class="campo-pai-botao">
+                <div class="botao-enviar">
+                    <input type="submit" value="Enviar">
+                </div>
+                <div class="botao-limpar">
+                    <input type="button" value="Limpar">
+                </div>
+            </div>
+        </form>
+    </div>    
+</div>
+</body>
+
+</html>
